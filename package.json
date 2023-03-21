@@ -20,7 +20,7 @@
   "scripts": {
     "build": "vite build",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "build-storybook": "vite build && storybook build",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {

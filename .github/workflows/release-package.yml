@@ -1,4 +1,4 @@
-name: shiver-ui
+name: Deploy NPM Package
 on:
   release:
     types: [created]
