@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import * as packageJson from './package.json'
 import dtsPlugin from "vite-plugin-dts";
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,7 +11,8 @@ export default defineConfig({
     react(),
     dtsPlugin({
       insertTypesEntry: true
-    })
+    }),
+    cssInjectedByJsPlugin()
   ],
   build: {
     lib: {
