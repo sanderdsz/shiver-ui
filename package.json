@@ -1,14 +1,34 @@
 {
-  "name": "shiver",
+  "name": "shiver-ui",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanderdsz/shiver-ui.git"
+  },
+  "keywords": [
+    "Component",
+    "React"
+  ],
+  "author": "Sander dos Santos Zuchinalli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanderdsz/shiver-ui/issues"
+  },
+  "homepage": "https://github.com/sanderdsz/shiver-ui#readme",
   "scripts": {
+    "build": "vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "shiver-design-system": "^1.0.0-beta.1"
+  },
+  "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "shiver-design-system": "^1.0.0-beta.1"
@@ -28,6 +48,19 @@
     "prop-types": "^15.8.1",
     "storybook": "^7.0.0-rc.4",
     "typescript": "^4.9.3",
-    "vite": "^4.2.0"
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.1.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/shiver-ui.es.js",
+  "module": "./dist/shiver-ui.umd.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/shiver-ui.es.js",
+      "require": "./dist/shiver-ui.umd.js"
+    }
   }
 }
