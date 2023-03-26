@@ -1,18 +1,18 @@
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import * as packageJson from './package.json'
-import dtsPlugin from "vite-plugin-dts";
-import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
+import {resolve} from 'path';
+import {defineConfig} from 'vite';
+import react from '@vitejs/plugin-react';
+import * as packageJson from './package.json';
+import dtsPlugin from 'vite-plugin-dts';
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js';
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
     dtsPlugin({
-      insertTypesEntry: true
+      insertTypesEntry: true,
     }),
-    cssInjectedByJsPlugin()
+    cssInjectedByJsPlugin(),
   ],
   build: {
     lib: {
@@ -27,9 +27,9 @@ export default defineConfig({
         globals: {
           react: 'React',
           'react-dom': 'ReactDOM',
-          'shiver-design-system': 'Shiver'
-        }
-      }
-    }
-  }
-})
+          'shiver-design-system': 'Shiver',
+        },
+      },
+    },
+  },
+});
