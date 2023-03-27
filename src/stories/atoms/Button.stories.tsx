@@ -1,4 +1,4 @@
-import {Button, ButtonProps} from '../components/atoms/Button';
+import {Button, ButtonProps} from '../../components/atoms/Button';
 import {Meta, StoryObj} from '@storybook/react';
 import React from 'react';
 
@@ -7,7 +7,10 @@ export default {
   component: Button,
   argTypes: {
     color: {control: 'select', options: ['primary', 'secondary']},
-  },
+    onClick: {
+      action: 'clicked'
+    }
+  }
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {
