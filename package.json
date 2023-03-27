@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sanderdsz/shiver-ui#readme",
   "scripts": {
-    "format": "prettier --write .",
+    "format": "prettier --write \"**/*.+(ts|tsx|json)\"",
     "build": "vite build",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "vite build && storybook build",
