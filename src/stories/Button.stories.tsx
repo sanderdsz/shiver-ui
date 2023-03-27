@@ -46,3 +46,40 @@ export const Outline: StoryObj<ButtonProps> = {
     variant: 'outline',
   },
 };
+
+export const Success: StoryObj<ButtonProps> = {
+  args: {
+    label: 'Button',
+    color: 'success',
+    size: 'medium',
+    textColor: 'font-light',
+  },
+};
+
+export const Warning: StoryObj<ButtonProps> = {
+  args: {
+    label: 'Button',
+    color: 'warning',
+    size: 'medium',
+    textColor: 'font-dark',
+  },
+};
+
+export const Danger: StoryObj<ButtonProps> = {
+  args: {
+    label: 'Button',
+    color: 'danger',
+    size: 'medium',
+    textColor: 'font-light',
+  },
+};
+
+export const Disabled: StoryObj<ButtonProps> = {
+  args: {
+    label: 'Button',
+    color: 'primary',
+    size: 'medium',
+    textColor: 'font-dark',
+    variant: 'disabled'
+  },
+};

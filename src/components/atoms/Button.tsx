@@ -1,10 +1,10 @@
 import 'shiver-design-system/src/css/shiver.css';
 
 export interface ButtonProps {
-  color?: 'primary' | 'secondary';
+  color?: 'primary' | 'secondary' | 'success' | 'warning' | 'danger';
   size?: 'small' | 'medium' | 'large';
   label: string;
-  variant?: 'rounded' | 'outline';
+  variant?: 'rounded' | 'outline' | 'disabled';
   textColor: 'font-light' | 'font-dark';
 }
 
