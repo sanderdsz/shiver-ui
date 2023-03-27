@@ -8,9 +8,9 @@ export default {
   argTypes: {
     color: {control: 'select', options: ['primary', 'secondary']},
     onClick: {
-      action: 'clicked'
-    }
-  }
+      action: 'clicked',
+    },
+  },
 } as Meta<ButtonProps>;
 
 export const Primary: StoryObj<ButtonProps> = {
@@ -83,6 +83,6 @@ export const Disabled: StoryObj<ButtonProps> = {
     color: 'primary',
     size: 'medium',
     textColor: 'font-dark',
-    variant: 'disabled'
+    variant: 'disabled',
   },
 };
