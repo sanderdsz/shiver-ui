@@ -1,4 +1,4 @@
-import 'shiver-design-system/src/css/shiver.css';
+import 'shiver-design-system';
 
 export interface ButtonProps {
   color?: 'primary' | 'secondary' | 'success' | 'warning' | 'danger';
