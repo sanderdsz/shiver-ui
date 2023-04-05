@@ -1,6 +1,6 @@
 {
   "name": "shiver-ui",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-beta.1",
   "type": "module",
   "description": "Shiver UI React Library",
   "repository": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "shiver-design-system": "^1.0.0-beta.1"
+    "shiver-design-system": "file:../shiver-design-system"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-rc.4",
@@ -43,6 +43,7 @@
     "@vitejs/plugin-react": "^3.1.0",
     "prettier": "2.8.7",
     "prop-types": "^15.8.1",
+    "sass": "^1.60.0",
     "storybook": "^7.0.0-rc.4",
     "typescript": "^4.9.3",
     "vite": "^4.2.0",
