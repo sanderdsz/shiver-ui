@@ -20,7 +20,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={`${color} ${size} ${textColor} ${buttonVariant}`}
+      className={`button ${color} ${size} ${textColor} ${buttonVariant}`}
       {...props}
     >
       {label}

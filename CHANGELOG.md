@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0-beta.1] - WIP
 
 ### Added
-- Button, input, avatar and progress bar components.
-- Button, input, avatar and progress bar stories.
+- Button, input, avatar, progress bar and navigation button components.
+- Button, input, avatar, progress bar and navigation button stories.
 - Colors utils file.
 - Changelog file.
