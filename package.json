@@ -28,7 +28,7 @@
     "@phosphor-icons/react": "^2.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "shiver-design-system": "file:../shiver-design-system"
+    "shiver-design-system": "^1.0.0-beta.2"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.0-rc.4",
