@@ -1,0 +1,12 @@
+import { ButtonProps } from '../../components/atoms/Button';
+import { StoryObj } from '@storybook/react';
+declare const _default: import("@storybook/types").ComponentAnnotations<import("@storybook/react/dist/types-0a347bb9").R, ButtonProps>;
+export default _default;
+export declare const Primary: StoryObj<ButtonProps>;
+export declare const Secondary: StoryObj<ButtonProps>;
+export declare const Rounded: StoryObj<ButtonProps>;
+export declare const Outline: StoryObj<ButtonProps>;
+export declare const Success: StoryObj<ButtonProps>;
+export declare const Warning: StoryObj<ButtonProps>;
+export declare const Danger: StoryObj<ButtonProps>;
+export declare const Disabled: StoryObj<ButtonProps>;
